@@ -1,13 +1,12 @@
-
-
+.full-page{
+    justify-content: center;
+    padding: 10px;
+}
 .logo-links{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
-
-
 
 .nav-links{
     list-style: none;
@@ -16,12 +15,14 @@
     justify-content: flex-end;
     gap: 10px;
 }
+
 .header-img{
     display: flex;
-    width: 890px;
-    height: 385px;
+    width: 900px;
+    height: 400px;
     align-items: center;
     justify-content: center;
+    width: 100%;
 
 }
 
