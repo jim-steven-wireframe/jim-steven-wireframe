@@ -55,7 +55,7 @@ h1, h2 {
         width: 100%;
         justify-content: center;
         align-content: center;
-        background-color: #67B8E3;
+        background-color: #CCFFFF;
         border: solid darkgrey 1px;
         padding: 10px;
         height: 10vh;
@@ -79,7 +79,16 @@ h1, h2 {
     .all-sections{
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
     }
+    .header-img{
+        display: flex;
+        /*width: 900px;*/
+        /*height: 400px;*/
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-shrink: initial;
 }
 /* Styles specific to desktop */
 @media (min-width: 601px) {
