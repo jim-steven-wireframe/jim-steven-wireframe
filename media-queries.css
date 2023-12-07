@@ -1,10 +1,33 @@
+
+
+.logo-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
 .nav-links{
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-content: space-evenly;
     gap: 10px;
+}
+.header-img{
+    display: flex;
+    width: 890px;
+    height: 385px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.all-sections{
+    display: flex;
+    flex-direction: row;
 }
 
 .main{
